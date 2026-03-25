@@ -1,0 +1,31 @@
+{
+	id: "3066925258C17667"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 2, item: "minecraft:raw_iron" }
+		{ count: 2, item: "minecraft:raw_copper" }
+		{ count: 2, item: "minecraft:raw_gold" }
+		{ item: "minecraft:raw_iron_block" }
+		{ item: "minecraft:raw_copper_block" }
+		{ item: "minecraft:raw_gold_block" }
+		{ count: 2, item: "minecraft:coal" }
+		{ item: "minecraft:coal_block" }
+		{ item: "minecraft:iron_block" }
+		{ item: "minecraft:gold_block" }
+		{ item: "minecraft:redstone_block" }
+		{ item: "minecraft:emerald_block" }
+		{ item: "minecraft:lapis_block" }
+		{ item: "minecraft:diamond_block" }
+		{ count: 2, item: "minecraft:diamond" }
+		{ count: 2, item: "minecraft:emerald" }
+		{ count: 2, item: "minecraft:lapis_lazuli" }
+		{ count: 2, item: "minecraft:charcoal" }
+		{ count: 2, item: "minecraft:quartz" }
+		{ count: 2, item: "minecraft:iron_ingot" }
+		{ count: 2, item: "minecraft:copper_ingot" }
+		{ count: 2, item: "minecraft:gold_ingot" }
+		{ count: 2, item: "minecraft:amethyst_cluster" }
+	]
+	title: "ore"
+}

@@ -1,0 +1,530 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: ""
+	id: "1DB3055F62E24CE0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5CC5CA633E15DB91"
+			tasks: [{
+				id: "00D2816C78AC8100"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			description: ["Can be any power source from any mod... You can use &oPowah &r or something like an alternator from &oCreate&r"]
+			id: "615C9753C1E6AA05"
+			tasks: [{
+				id: "5FD2F57EC0C9145F"
+				title: "Just a power source take your pick"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5CC5CA633E15DB91"
+				"615C9753C1E6AA05"
+			]
+			dependency_requirement: "one_completed"
+			id: "0F3251BE7E62C298"
+			tasks: [{
+				id: "29AAFC6EAFD5893C"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F3251BE7E62C298"]
+			id: "72939AAF506FCBCC"
+			rewards: [{
+				count: 4
+				id: "608DE6750FD13E7C"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "463E63FF992F3E00"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72939AAF506FCBCC"]
+			id: "273D263CDE345EFB"
+			tasks: [{
+				id: "60B82ADEC96A8558"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72939AAF506FCBCC"]
+			description: ["You can use a &oMechanical press &r to do the same"]
+			id: "5CCBA3A7EEFDC1F0"
+			tasks: [{
+				id: "360516BCE11BDD00"
+				title: "Other options"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5CCBA3A7EEFDC1F0"
+				"273D263CDE345EFB"
+			]
+			dependency_requirement: "one_completed"
+			id: "37B16344C09AC921"
+			tasks: [{
+				id: "4D6AD74BD88B2131"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37B16344C09AC921"]
+			id: "1E79E613ABA23F38"
+			tasks: [{
+				id: "2B6D6E866C381CF3"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E79E613ABA23F38"]
+			id: "74E9821250F1E47A"
+			tasks: [{
+				count: 4L
+				id: "456030B0450E6031"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E79E613ABA23F38"]
+			id: "2B9EA760AD0B3B34"
+			tasks: [{
+				id: "31D70D02FBD8FC4F"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E79E613ABA23F38"]
+			id: "2EA162CDE69E7542"
+			tasks: [{
+				id: "0A2B3C46472BBA31"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E79E613ABA23F38"]
+			id: "788DE2BE3625004C"
+			tasks: [{
+				count: 2L
+				id: "285271F57ACD1D5F"
+				item: { Count: 2, id: "ad_astra:steel_tank" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E79E613ABA23F38"]
+			id: "79D2F14506721761"
+			tasks: [{
+				count: 8L
+				id: "62D591C6DDC2B4D6"
+				item: { Count: 8, id: "ad_astra:steel_block" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"74E9821250F1E47A"
+				"2EA162CDE69E7542"
+				"2B9EA760AD0B3B34"
+				"79D2F14506721761"
+				"788DE2BE3625004C"
+			]
+			id: "35CED21420B0EEE4"
+			tasks: [{
+				id: "21C1962A89EFB349"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "78123FBA12520623"
+			tasks: [{
+				id: "51D1349B094EDD7A"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "149A129CB51EA2ED"
+			tasks: [{
+				id: "09DAC3C43EE7C40F"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "7684A839E78EAEB3"
+			tasks: [{
+				id: "0A60F02EF429E1D8"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "33871E33B6813D6C"
+			tasks: [{
+				id: "7979825C9D9166DC"
+				item: "ad_astra:oxygen_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "2EBE3788112DE4F9"
+			tasks: [{
+				id: "488079D0F6CEB554"
+				item: {
+					Count: 1
+					id: "ad_astra:space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "7897A3F156EC686F"
+			tasks: [{
+				id: "5FBC53EFF64139F1"
+				item: {
+					Count: 1
+					id: "ad_astra:space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "0E0DEA8224E64327"
+			tasks: [{
+				id: "3901F5ED2A1E8BB0"
+				item: {
+					Count: 1
+					id: "ad_astra:space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "519F0FC06B1163C9"
+			tasks: [{
+				id: "4175C894A8D6B653"
+				item: {
+					Count: 1
+					id: "ad_astra:space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7684A839E78EAEB3"
+				"2EBE3788112DE4F9"
+				"149A129CB51EA2ED"
+				"7897A3F156EC686F"
+				"519F0FC06B1163C9"
+				"78123FBA12520623"
+				"33871E33B6813D6C"
+				"35CED21420B0EEE4"
+				"0E0DEA8224E64327"
+			]
+			description: ["These are the minimum items needed to go to the moon &l(Take food) &rBelow are some extras"]
+			id: "1335BAC98E025610"
+			tasks: [{
+				id: "742922149624C822"
+				title: "Essentials "
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1335BAC98E025610"]
+			id: "2F14FB33D0A15168"
+			tasks: [
+				{
+					advancement: "ad_astra:moon"
+					criterion: ""
+					id: "1E6943C13CA5411B"
+					type: "advancement"
+				}
+				{
+					dimension: "ad_astra:moon"
+					id: "7397BA01491AAE70"
+					type: "dimension"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4FE524369F82C6F1"
+				"6659239FAC65B416"
+				"4FCD673DF627B51F"
+				"2180E796E7FFE573"
+				"1335BAC98E025610"
+				"7B8000E2723AA20D"
+			]
+			id: "4EC1A9D69488FC06"
+			tasks: [{
+				id: "42D249356C3091D8"
+				title: "Extras"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "2180E796E7FFE573"
+			tasks: [{
+				id: "524B981A9F46D05E"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "6659239FAC65B416"
+			tasks: [{
+				id: "074F71EA1FC47668"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ad_astra:flags)"
+					}
+				}
+				title: "Any #ad_astra:flags"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "4FCD673DF627B51F"
+			tasks: [{
+				id: "284834F4C1715154"
+				item: "ad_astra:airlock"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "4FE524369F82C6F1"
+			tasks: [{
+				id: "55A0982C7BF6905E"
+				item: "ad_astra:oxygen_sensor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F14FB33D0A15168"]
+			id: "48513AC7CEEA2CC6"
+			tasks: [{
+				id: "0AE53C322A5DDFA0"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48513AC7CEEA2CC6"]
+			id: "14F307E99A7601F1"
+			tasks: [{
+				count: 4L
+				id: "3048882F2AF4F0BF"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48513AC7CEEA2CC6"]
+			id: "68363344F5DE3826"
+			tasks: [{
+				count: 8L
+				id: "670FAC364C4F5B5C"
+				item: { Count: 8, id: "ad_astra:desh_block" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48513AC7CEEA2CC6"]
+			id: "4E10D976790F660C"
+			tasks: [{
+				id: "16A5B89A930E81A8"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48513AC7CEEA2CC6"]
+			id: "037DB99D323FFB33"
+			tasks: [{
+				id: "69E8178E3E54D42C"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48513AC7CEEA2CC6"]
+			id: "470EBBD3578A7945"
+			tasks: [{
+				count: 2L
+				id: "4355EA47FFB2B768"
+				item: { Count: 2, id: "ad_astra:desh_tank" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"470EBBD3578A7945"
+				"4E10D976790F660C"
+				"68363344F5DE3826"
+				"037DB99D323FFB33"
+				"14F307E99A7601F1"
+			]
+			id: "09B9A24A91F58827"
+			tasks: [{
+				id: "2580DDCDECB25745"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48513AC7CEEA2CC6"]
+			id: "37C0666B3EB33D36"
+			tasks: [{
+				id: "2502C5C8B85C3EBD"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["09B9A24A91F58827"]
+			description: ["You can then head further into the galaxy finding new ores which allow you to make better rockets allowing you to go further exploring the inner solar system to the fullest"]
+			id: "465F94F1886F74B7"
+			tasks: [{
+				id: "00148925BEDE3E4A"
+				title: "This cyle repeats"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			id: "7B8000E2723AA20D"
+			tasks: [{
+				id: "1FCE4393764D32F0"
+				item: "ad_astra:vent"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+	]
+	title: "Ad Astra"
+}

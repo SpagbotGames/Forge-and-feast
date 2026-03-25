@@ -1,0 +1,317 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: ""
+	id: "3C6FFC1320279472"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "33D59A753549C1C6"
+			tasks: [{
+				id: "194C6DD6897E52E1"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["33D59A753549C1C6"]
+			id: "1B617F6A5735CDBF"
+			rewards: [{
+				id: "32D0D9AEF9D92DF2"
+				item: {
+					count: 1
+					id: "ironchest:wood_to_iron_chest_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00E74F4756D8F32B"
+				item: { count: 1, id: "ironchest:wood_to_iron_chest_upgrade" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["33D59A753549C1C6"]
+			id: "2440AB85DEA94211"
+			rewards: [{
+				id: "740AAF7052CA16D6"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:basic_tier_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "589289BAA9D3BB63"
+				item: { count: 1, id: "sophisticatedstorage:basic_tier_upgrade" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B617F6A5735CDBF"]
+			id: "5AACFED1EB84843A"
+			rewards: [{
+				id: "49CB77E426947DBA"
+				item: {
+					count: 1
+					id: "ironchest:iron_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FC133492327E96E"
+				item: { count: 1, id: "ironchest:iron_to_gold_chest_upgrade" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2440AB85DEA94211"]
+			id: "3DE0DBD1BF7184DC"
+			rewards: [{
+				id: "64EDE1DABE0CD775"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:basic_tier_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33450C43B5F0EAD1"
+				item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2440AB85DEA94211"]
+			id: "7F64333DDD735F3A"
+			rewards: [{
+				id: "460558247A2F16F8"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:basic_tier_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BDD0CB634A02E28"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7F64333DDD735F3A"]
+			id: "7B1178D0BF85AA89"
+			tasks: [{
+				id: "1091AF865372ADF0"
+				item: { count: 1, id: "sophisticatedstorage:storage_tool" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B1178D0BF85AA89"]
+			id: "5B3550EE32D02D9C"
+			rewards: [{
+				id: "41FE62B25670D8E7"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:storage_io"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7143C7D06AC1A278"
+					item: { count: 1, id: "sophisticatedstorage:storage_input" }
+					type: "item"
+				}
+				{
+					id: "2CC5708AE17796C3"
+					item: { count: 1, id: "sophisticatedstorage:storage_output" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5AACFED1EB84843A"]
+			id: "359F9C9F44DB28F0"
+			rewards: [{
+				id: "479440E10BD09870"
+				item: {
+					count: 1
+					id: "ironchest:iron_to_gold_chest_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72EC04A04CF76ED5"
+				item: { count: 1, id: "ironchest:gold_to_diamond_chest_upgrade" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DE0DBD1BF7184DC"]
+			id: "6AFF430D94F8CF98"
+			rewards: [{
+				id: "3B256929DF880673"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E608E4503517198"
+				item: { count: 1, id: "sophisticatedstorage:iron_to_gold_tier_upgrade" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["359F9C9F44DB28F0"]
+			id: "0E45D1C1AFDDBFFF"
+			rewards: [{
+				id: "0CC3255106DAB45B"
+				item: {
+					count: 1
+					id: "ironchest:gold_to_diamond_chest_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3024D4A42C58B3C4"
+				item: { count: 1, id: "ironchest:diamond_to_crystal_chest_upgrade" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6AFF430D94F8CF98"]
+			id: "1EF9693EF5402ABF"
+			rewards: [{
+				id: "19224823B0BB2D27"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DD41524AA780320"
+				item: { count: 1, id: "sophisticatedstorage:gold_to_diamond_tier_upgrade" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2440AB85DEA94211"]
+			id: "3A660C6A3341130A"
+			rewards: [{
+				count: 2
+				id: "35CC6972571F99EC"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2880CF1648F3BEF5"
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33D59A753549C1C6"]
+			id: "36E9FF499D527F00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29056E7914BC4A9E"
+				table_id: 8644807060567843136L
+				type: "random"
+			}]
+			tasks: [{
+				id: "038B1BAECDE57C65"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36E9FF499D527F00"]
+			id: "2C457B63309C3436"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "321E4050FBC5975C"
+				table_id: 8644807060567843136L
+				type: "random"
+			}]
+			tasks: [{
+				id: "319A89240C8222D3"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C457B63309C3436"]
+			id: "5F2F0A7FFA7937D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CFC8FE0FCA6F9A0"
+				table_id: 8644807060567843136L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BD0AA64D831FF25"
+				item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F2F0A7FFA7937D8"]
+			id: "67D942DA0E52A417"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A25EDD3223EAFB0"
+				table_id: 8644807060567843136L
+				type: "random"
+			}]
+			tasks: [{
+				id: "149D5B1F6FB3CA61"
+				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.0d
+		}
+	]
+}

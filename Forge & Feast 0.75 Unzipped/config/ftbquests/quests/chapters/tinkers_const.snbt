@@ -1,0 +1,354 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_const"
+	group: ""
+	id: "73515B62E138D853"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "667D7ED18C6CA1A7"
+			rewards: [{
+				count: 4
+				id: "057E3B5BBD5D79E4"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "26DE17BDBEED0C7A"
+				item: { Count: 6, id: "tconstruct:grout" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["667D7ED18C6CA1A7"]
+			id: "35383F3B985CA486"
+			rewards: [{
+				count: 2
+				id: "7E55B3AF1715ADEB"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "15079325142CD05F"
+				item: { Count: 6, id: "tconstruct:seared_brick" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35383F3B985CA486"]
+			id: "257ADCB2665C5329"
+			rewards: [{
+				id: "5865277EA21A43D3"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "695C624A07835B3D"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "4DD1A5F43CFF9C63"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["257ADCB2665C5329"]
+			id: "67F05ACBD674861E"
+			rewards: [{
+				count: 4
+				id: "3156DA9FDBA06B86"
+				item: "tconstruct:seared_bricks"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BBA4C1A3992FBF6"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["67F05ACBD674861E"]
+			id: "0D9836C89170DA75"
+			tasks: [
+				{
+					id: "2616D061F9152C87"
+					item: "tconstruct:seared_fuel_tank"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "417E3AEADCBDDF7A"
+					item: "tconstruct:seared_fuel_gauge"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D9836C89170DA75"]
+			id: "36706F67E36F8CDB"
+			tasks: [{
+				id: "6CE18AD0CDE6D7E9"
+				item: "tconstruct:seared_drain"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["257ADCB2665C5329"]
+			id: "51047FAADF68953E"
+			tasks: [{
+				id: "5CB385E9AFDB26D5"
+				item: "tconstruct:seared_faucet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["257ADCB2665C5329"]
+			id: "705C3A4470CD6B1A"
+			tasks: [{
+				id: "5A988F5375BB498E"
+				item: "tconstruct:seared_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["257ADCB2665C5329"]
+			id: "10672EE11688C06E"
+			tasks: [{
+				id: "2CED277AD16B693E"
+				item: "tconstruct:seared_basin"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["705C3A4470CD6B1A"]
+			id: "6DF3FB80CA1B2D5E"
+			tasks: [{
+				id: "798C581FC8434326"
+				item: "tconstruct:ingot_cast"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["705C3A4470CD6B1A"]
+			id: "466C4173B24B9B96"
+			tasks: [{
+				id: "15B50392003BF2D8"
+				item: "tconstruct:nugget_cast"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["705C3A4470CD6B1A"]
+			id: "74E94D6EEB700CD3"
+			tasks: [{
+				id: "02DB0DE92957555D"
+				item: "tconstruct:gem_cast"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["705C3A4470CD6B1A"]
+			id: "44ABD1193F9E49C9"
+			tasks: [{
+				id: "49D9BC892BE4685F"
+				item: "tconstruct:rod_cast"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["705C3A4470CD6B1A"]
+			id: "762D97B20D5452E7"
+			tasks: [{
+				id: "5D751B1B4BC76C32"
+				item: "tconstruct:pick_head_cast"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["705C3A4470CD6B1A"]
+			id: "7C16F485A95841B0"
+			tasks: [{
+				id: "12E7362A3292A6B8"
+				item: "tconstruct:small_axe_head_cast"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["705C3A4470CD6B1A"]
+			id: "4435E96CD24FD94C"
+			tasks: [{
+				id: "01F9846268989CFC"
+				item: "tconstruct:small_blade_cast"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["705C3A4470CD6B1A"]
+			id: "6E71F0926FD1EF45"
+			tasks: [{
+				id: "23A2C571BBE495FC"
+				item: "tconstruct:hammer_head_cast"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["705C3A4470CD6B1A"]
+			id: "5026EA165456F8F4"
+			tasks: [{
+				id: "0509A4ADCD6635F7"
+				item: "tconstruct:tool_handle_cast"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["705C3A4470CD6B1A"]
+			id: "6FF0733F9A667760"
+			tasks: [{
+				id: "4EF9606012E56B0C"
+				item: "tconstruct:tool_binding_cast"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			description: ["Same as a normal crafting table but holds items when you cancel crafting. Also links with the other tables in tinkers construct."]
+			id: "7CF5F2B04BA8962A"
+			tasks: [{
+				id: "54EA24A5BAA0298F"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			description: ["Used to make the intial patters and versions of tinkers construct parts a wooden version of any of these can be cast into a mold using gold or sadn."]
+			id: "1DF6474765C0E7B5"
+			tasks: [{
+				id: "7C003AC8DE9922E9"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7254BC154BF50CAB"]
+			description: ["Used to assemble tool parts into a tool."]
+			id: "4924AA77DD1F073C"
+			tasks: [{
+				id: "20CE24F9E9DAF063"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DF6474765C0E7B5"]
+			id: "7254BC154BF50CAB"
+			tasks: [{
+				advancement: "tconstruct:tools/make_part"
+				criterion: ""
+				id: "29C97D1E62323E83"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4924AA77DD1F073C"]
+			id: "289E5E19B8AF1486"
+			tasks: [{
+				advancement: "tconstruct:tools/tinker_tool"
+				criterion: ""
+				id: "6938166B4E795AF2"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["289E5E19B8AF1486"]
+			id: "42D7418F0579564D"
+			tasks: [{
+				id: "37039DAFA30EB29E"
+				item: "tconstruct:tinkers_anvil"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["42D7418F0579564D"]
+			id: "1AD45C245B1896DD"
+			tasks: [{
+				advancement: "tconstruct:smeltery/tinkers_anvil"
+				criterion: ""
+				id: "57F1246FFA7575A1"
+				type: "advancement"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1AD45C245B1896DD"]
+			id: "20DE726B3F0A8403"
+			tasks: [{
+				advancement: "tconstruct:tools/modified"
+				criterion: ""
+				id: "58618A18580C596D"
+				type: "advancement"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+	]
+	title: "Tinkers Const"
+}

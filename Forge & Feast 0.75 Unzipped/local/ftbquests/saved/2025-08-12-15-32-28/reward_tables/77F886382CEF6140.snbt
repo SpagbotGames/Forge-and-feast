@@ -1,0 +1,19 @@
+{
+	id: "77F886382CEF6140"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "52A7FEA70316B618", item: { count: 1, id: "minecraft:raw_iron_block" } }
+		{ id: "191C41C9BF4113A2", item: { count: 1, id: "minecraft:raw_copper_block" } }
+		{ id: "2FA4281455544116", item: { count: 1, id: "minecraft:raw_gold_block" } }
+		{ id: "74411AD6F56BC00E", item: { count: 1, id: "minecraft:diamond_block" } }
+		{ id: "43CA85C17EED4DF4", item: { count: 1, id: "minecraft:coal_block" } }
+		{ id: "4123B3672071A54B", item: { count: 1, id: "minecraft:raw_iron" } }
+		{ id: "75DC8AB691E75DF4", item: { count: 1, id: "minecraft:raw_gold" } }
+		{ id: "277F70BAF4BA692D", item: { count: 1, id: "minecraft:raw_copper" } }
+		{ id: "48A8E5C4C02DE991", item: { count: 1, id: "minecraft:coal" } }
+		{ id: "7DAD227D6F3D5F73", item: { count: 1, id: "minecraft:diamond" } }
+		{ id: "29D0ACA4516A6971", item: { count: 1, id: "create:raw_zinc_block" } }
+		{ id: "56F97F5B2CEE93AE", item: { count: 1, id: "create:raw_zinc" } }
+	]
+}

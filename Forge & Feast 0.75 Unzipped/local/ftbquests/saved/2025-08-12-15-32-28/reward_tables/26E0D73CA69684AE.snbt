@@ -1,0 +1,39 @@
+{
+	id: "26E0D73CA69684AE"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 6
+			id: "3B268B5E01D99D18"
+			item: {
+				count: 1
+				id: "create:crushed_raw_iron"
+			}
+		}
+		{
+			count: 6
+			id: "795A2717D7255AC6"
+			item: {
+				count: 1
+				id: "create:crushed_raw_gold"
+			}
+		}
+		{
+			count: 6
+			id: "25975527E90ABA61"
+			item: {
+				count: 1
+				id: "create:crushed_raw_copper"
+			}
+		}
+		{
+			count: 6
+			id: "3A3BE5FB9D5F6190"
+			item: {
+				count: 1
+				id: "create:crushed_raw_zinc"
+			}
+		}
+	]
+}

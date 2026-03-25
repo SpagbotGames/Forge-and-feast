@@ -1,0 +1,4 @@
+#Sat Aug 16 18:50:43 BST 2025
+shadowDistance=512.0
+shadowMapResolution=3072
+ADVANCED_MATERIALS=true
